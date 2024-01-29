@@ -1,0 +1,25 @@
+{
+  "name": "simple-webpage-secure-apis",
+  "version": "1.0.0",
+  "description": "this is simple webpage for securing apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.0",
+    "winston": "^3.11.0"
+  }
+}
